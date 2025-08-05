@@ -1,6 +1,6 @@
 # Amazon Clone (HTML & CSS)
 
-A simple front-end Amazon clone homepage built using only HTML and CSS. This project's aim was to practice HTML and CSS (learn the different functions and tags used in these programming languages) and focuses on layout, styling to mimic the Amazon website.
+A simple front-end Amazon clone homepage built using only HTML and CSS. This project's aim was to practice HTML and CSS (learn the different functions and tags used in these programming languages) and focuses on layout, styling to mimic the Amazon website. The exact styling  — including margins and layout adjustments was noted down using the browser's Inspect tool on the Amazon website.
 
 ## Features
 
