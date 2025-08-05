@@ -7,7 +7,6 @@ A simple front-end Amazon-inspired e-commerce homepage built using only HTML and
 - Amazon-style homepage layout
 - Header with logo, search bar, and navigation
 - Product sections with images and titles
-- Responsive design for mobile and desktop
 
 ## Tech Stack
 
@@ -31,7 +30,7 @@ A simple front-end Amazon-inspired e-commerce homepage built using only HTML and
 ## Notes
 
 - No JavaScript or backend functionality included
-- Created for learning and portfolio purposes
+- Created to practice HTML and CSS
 
 ## License
 
