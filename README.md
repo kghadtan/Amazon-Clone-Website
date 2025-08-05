@@ -26,7 +26,7 @@ A simple front-end Amazon-inspired e-commerce homepage built using only HTML and
 2. Open `index.html` in any web browser
 
 ## Screenshot
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4404214-eceb-4833-9adf-3214c3823382" />
+<img width="1919" height="887" alt="image" src="https://github.com/user-attachments/assets/d9cd6bce-35de-421c-89e0-54c883e18f08" />
 
 ## Notes
 
