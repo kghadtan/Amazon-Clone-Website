@@ -1,0 +1,276 @@
+ * { 
+    margin: 0;
+    font-family: Arial; 
+    border: border-box; 
+}
+
+/*div needs a height width*/
+
+.navbar {
+    height: 60px; 
+    background-color: #0f1111 ;
+    color:white;
+    display: flex;
+    align-items:center; /* aligns everything in the center */
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100%;   
+}
+
+/* border creates border around the element, border hover creates a outline around the element */
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/** box3 **/
+.nav-search {
+    display: flex; /* moves it to become in the same row alignment */
+    justify-content: space-evenly; /* spaces the elements evenly */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px; /* border-radius to set all corners curved */
+    border-bottom-left-radius: 4px;
+    border: none; /* removes the border */
+}
+
+.search-input {
+    width: 100%; /* width: 100% makes the element fully take all the emppty space*/
+    font-size: 1rem;
+    border: none; /* no border between the elements beside it*/
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center; /* centers the icon horizantally*/
+    align-items: center; /* centers the icon vertically */
+    font-size:1.2rem;
+    background-color:rgb(255, 183, 0);
+     border-top-right-radius: 4px; /* border-radius to set all corners curved */
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+
+/*nav-search:hover changes the border color when hovered over */
+.nav-search:hover {
+     border: 2px solid orange; /* creates a border around the search bar */
+}
+/** box4 **/
+
+span {
+    font-size: 0.7rem;
+}  
+
+.nav-second {
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+
+/** box6 **/
+
+/** nav-cart i means that any icon inside nav-cart will undergo following changes**/
+.nav-cart i { 
+   font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel **/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{ 
+    display: inline; /* makes the element in the same line so that it does not take the full width */
+    margin-left: 10px; /* for each paragraph adds space between the text and the left side */
+}
+
+.panel-ops {
+    width: 70%; /*how does this width percentage tell shop deals in electronics text to move to the right*/
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700; /* makes the text bold */
+}
+
+/** hero section **/
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover; /* makes the image cover the entire section */
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* aligns the content to the bottom of the section */
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center; /* centers the text vertically */
+    justify-content: center; /* centers the text horizontally */
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px; /* adds space from the bottom of the section */
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap; /* allows the boxes to wrap to the next line if there is not enough space */
+    justify-content:space-evenly; /* will add the gaps between boxes as in amazon*/
+    background-color: #e2e7e6;
+}
+
+.box {
+    /*border: 2px solid black;*/
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px; /* padding: top right bottom left */
+    margin-top: 5px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover; /* makes the image cover the entire box */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content { 
+    margin-left: 10px;
+    margin-right:  10px;
+}
+
+.box-content p {
+    color: #007185
+}
+
+/** footer **/
+.footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block; /* makes the link take the full width of the list item makes it come in a block*/
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white; /* creates a line of white border*/
+    height: 70px;
+    display: flex;
+    justify-content: center; /* aligns the content to the start of the flex container */
+    align-items: center; /* centers the content vertically */
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center; /* centers the text */
+    display: flex;
+    justify-content: center; /* aligns the content to the start of the flex container */
+    align-items: center; /* centers the content vertically */
+}
+
+.pages {
+    font-size: 0.7rem;
+    text-align: center; /* centers the text */
+    padding-top: 25px; /* adds space from the top of the section */ 
+}
+
+.copyright{
+    padding-top: 5px;
+     font-size: 0.7rem;
+    text-align: center; /* centers the text */
+}
